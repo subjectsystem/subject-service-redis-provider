@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: subject-service-redis-provider
+
+server:
+  port: 8503
+
+  # Services Versions
+  services:
+    versions:
+      redis:
+        v1: 1.0.0
